@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1cm;
+    min-height: fit-content;
+    background-image: url(The-school.jpg);
+    flex-direction: column;
+    margin: 0%;
+}
+.login-container{
+    background-color: rgb(59, 59, 245);
+    border-radius: 20px;
+    box-shadow: 20px;
+    padding: 10px;
+    transition: all;
+    transform: 0.2s;
+    width: 450px;
+    text-align: center;
+    
+}
+label{
+    display: block;
+    width: 90%;
+    text-align: left;
+    color: aliceblue;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 5px;
+
+}
+input{
+    display: block;
+    width: 100%;
+    
+    border-radius: 15px;
+    box-sizing: inherit;
+    height: 20px;
+
+}
+button{
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: tomato;
+    color: bisque;
+    cursor: pointer;
+    background-color: darkgreen;
+    width: 80%;
+    font-style: italic;
+    font-size: larger;
+}
+p{
+    font-size:x-large;
+    color:blanchedalmond;
+}
+a{
+    font-style: italic;
+}
+
